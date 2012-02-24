@@ -1,0 +1,49 @@
+{
+	"addresses": [
+				{
+					"id": 1,
+                    "name": "Homepage",
+                    "url": "http://rss.bild.de/bild-home.xml"
+				},
+				{
+					"id": 2,
+                    "name": "News",
+                    "url": "http://rss.bild.de/bild-news.xml"
+				},
+				{
+					"id": 3,
+                    "name": "Politik",
+                    "url": "http://rss.bild.de/bild-politik.xml"
+				},
+				{
+					"id": 4,
+                    "name": "Unterhaltung",
+                    "url": "http://rss.bild.de/bild-unterhaltung.xml"
+				},
+				{
+					"id": 5,
+                    "name": "Sport",
+                    "url": "http://rss.bild.de/bild-sport.xml"
+				},
+				{
+					"id": 6,
+                    "name": "Lifestyle",
+                    "url": "http://rss.bild.de/bild-lifestyle.xml"
+				},
+				{
+					"id": 7,
+                    "name": "Ratgeber",
+                    "url": "http://rss.bild.de/bild-ratgeber.xml"
+				},
+				{
+					"id": 8,
+                    "name": "Auto",
+                    "url": "http://rss.bild.de/bild-auto.xml"
+				},
+				{
+					"id": 9,
+                    "name": "Digital",
+                    "url": "http://rss.bild.de/bild-digital.xml"
+				}
+			]
+}

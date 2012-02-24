@@ -1,0 +1,208 @@
+#admob_ad{
+	height:48px;
+}
+
+.feeds-list{
+	padding: 0px;
+	font-weight: bold;
+	/*margin:10px 20px 20px;*/
+	overflow: hidden;
+	position: relative;
+	background: #EEE;
+}
+
+.feeds-list .feed-logo{
+	clear:both;
+	float:left;
+}
+
+.feed-logo > img{
+	background-color: white;
+	height: 33px;
+	padding: 2px;
+	float:left;
+}
+
+.feeds-list .feed-bubble {
+	-webkit-box-flex: 1;
+	border-bottom-left-radius: 6px 6px;
+	border-bottom-right-radius: 6px 6px;
+	border-top-left-radius: 6px 6px;
+	border-top-right-radius: 6px 6px;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	clear:both;
+	float:left;
+}
+
+.feeds-list .feed-content {
+	color: #444;
+	padding: 5px;
+	text-shadow: white 0px 1px 0px;
+	z-index: 1;
+}
+
+.feeds-list .feed-content h2 {
+	color: #111;
+	font-weight: bold;
+	font-size: 0.7em;
+}
+
+.feeds-list .feed-content p {
+	font-size: 0.6em;
+}
+
+
+
+.feeds-list .delete{
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#D17E84), to(#BD1421));
+	border-color: #555;
+	float: right;
+	font-size: 0.7em;
+	padding: 5px 8px;
+	color: white;
+	margin-right: 10px;
+}
+
+.delete-item-active .feeds-list .action{
+	-webkit-transition: opacity 0.3s linear;
+	opacity: 1;
+	font-weight: normal;
+} 
+
+.feeds-list .action{
+	opacity: 0;
+}
+
+ .x-list-item .x-list-disclosure{
+        width: 10px;
+        height: 13px;
+        margin-top:0.2em;
+        margin-right: 0em;
+        -webkit-mask:none;
+        -webkit-mask-box-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAANCAYAAACQN/8FAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ bWFnZVJlYWR5ccllPAAAALRJREFUeNpi/P//P8OkSZMkGBgYtgNxfV5e3iYGLIBZSEhIGkjvB2Id IA4+efLkJXNz85voCpmgNBsSvRpogx+GQqBVT4G0LRDfx6cYbCIexd7oViMrvoOkeB1MMSPI18gA KGEPpA4gCYFs0WBCU6QCpJYiCYFscQPa9osJSZE61CRpJEW2QEV34G6EKtqLpOgRVNF95ADHpsgB WRHMxI9A/AWfIliAvwBJAvFudOuQAUCAAQDiG0runJxCpwAAAABJRU5ErkJggg==');
+ }
+
+
+.x-mask .x-mask-loading-logo {
+	-webkit-box-align: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-pack: center;
+	
+	border-bottom-left-radius: 0.5em 0.5em;
+	border-bottom-right-radius: 0.5em 0.5em;
+	border-top-left-radius: 0.5em 0.5em;
+	border-top-right-radius: 0.5em 0.5em;
+	color: white;
+	display: block;
+	font-weight: normal;
+	height: 2em;
+	padding: 0.4em;
+	text-align: right;
+	width: 8em;
+	background-image: url(../../resources/images/ajax-loader.gif);
+	background-repeat: no-repeat;
+}
+/*
+#feed-list{
+	border-bottom-left-radius: 0.5em 0.5em;
+	border-bottom-right-radius: 0.5em 0.5em;
+	border-top-left-radius: 0.5em 0.5em;
+	border-top-right-radius: 0.5em 0.5em;
+	margin:10px;
+}*/
+
+#feed-title .x-toolbar-title{
+	text-overflow: ellipsis;
+	/*overflow: hidden;
+	white-space:nowrap;*/
+	display:block;
+	width:150px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 0.7em;
+	word-wrap: break-word;
+	word-break:normal;
+}
+
+.feed span{
+	font-size: 0.7em;
+}
+
+
+
+
+.group-feed-widget{
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+}
+
+.outerWrapper{
+	margin: 10px;
+}
+
+.widget{
+	margin: 10px;
+	-webkit-box-sizing: border-box;
+	-webkit-transition: -webkit-transform 0.3s ease-in-out;
+	/*background-image: -webkit-gradient(radial, 50% 60%, 0, 50% 50%, 20, from(rgba(0, 5, 8, 0.496094)), to(rgba(0, 5, 8, 0)));*/
+	background-position: 0% 80%;
+	background-repeat: no-repeat;
+	background-size: 100% ;
+	border-bottom-left-radius: 10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	border-top-left-radius: 10px 10px;
+	border-top-right-radius: 10px 10px;
+	display: block;
+	margin: 18px 19px 5px 18px;
+}
+
+.widget-title{
+	color: black;
+	font-family: 'Lucida Grande', Verdana, Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	font-weight: bolder;
+	letter-spacing: -0.05em;
+	margin: 0px;
+	text-align: center;
+}
+
+img.x-icon-mask{
+	-webkit-mask-size: 2.4em 2.4em;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FCFCFC), color-stop(0.45, #CCC), to(#F6F6F6));
+	/*background-image: url(http://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png) center center no-repeat;*/
+  	background-size: 100%;
+	height: 2.4em;
+	/*margin: 0.4em auto;*/
+	width: 2.4em;
+}
+
+
+#carousel .x-item-selected img.x-icon-mask{
+	-webkit-mask-size: 2.4em 2.4em;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFCC), color-stop(0.45, #CCC), to(#FF9900));
+	/*background-image: url(http://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png) center center no-repeat;*/
+  	background-size: 100%;
+	height: 2.4em;
+	/*margin: 0.4em auto;*/
+	width: 2.4em;
+}
+/*
+
+.x-panel-body{
+	background: rgba(0, 0, 0, 0.25); 
+}*/
+
+div.title{
+	color: rgba(0, 0, 0, .4);
+	text-shadow: rgba(0, 0, 0, 0.4) 0px 2px 2px;
+	text-align: center;
+	font-size: 24px;
+	line-height: 26px;
+	font-weight: bold;
+	padding: 1em 5%;
+}
+
+

@@ -1,0 +1,139 @@
+{
+	"rss": [
+		{
+			"id": 1,
+			"name": "default feed group",
+			"feedsgroups": [
+				{
+					"id": 1,
+					"name": "default feeds",
+					"addresses": [
+						{
+		                    "id": 20,
+		                    "name": "heise",
+		                    "url": "http://www.heise.de/newsticker/heise-atom.xml" 
+		                },
+		                {
+		                    "id": 1,
+		                    "name": "Mitbbs",
+		                    "url": "http://www.mitbbs.com/board_rss/ScitechNews.xml" 
+		                },
+		                {
+		                    "id": 2,
+		                    "name": "ZDF",
+		                    "url": "http://www.zdf.de/ZDFportal/rss/0/0,6750,1600000,00.xml" 
+		                },
+		                {
+		                    "id": 3,
+		                    "name": "axxessio career",
+		                    "url": "http://www.axxessio.com/rss-feed-stellen.rdf" 
+		                },
+		                {
+		                    "id": 4,
+		                    "name": "Winfuture",
+		                    "url": "http://rss.feedsportal.com/c/617/f/8093/index.rss" 
+		                },
+		                {
+		                    "id": 5,
+		                    "name": "Tagesschau",
+		                    "url": "http://www.tagesschau.de/newsticker.rdf" 
+		                },
+		                {
+		                    "id": 6,
+		                    "name": "Sport 1",
+		                    "url": "http://www.sport1.de/de_1/startseite/rss.xml" 
+		                },
+		                {
+		                    "id": 7,
+		                    "name": "Spiegel Online",
+		                    "url": "http://www.spiegel.de/schlagzeilen/tops/index.rss" 
+		                },
+		                {
+		                    "id": 8,
+		                    "name": "Fussball",
+		                    "url": "http://www.fussball.com/rss-main.xml" 
+		                },
+		                {
+		                    "id": 9,
+		                    "name": "FAZ",
+		                    "url": "http://www.faz.net/s/RubF3CE08B362D244869BE7984590CB6AC1/Tpl~Epartner~SRss_.xml" 
+		                },
+		                {
+		                    "id": 10,
+		                    "name": "Kicker",
+		                    "url": "http://rss.kicker.de/news/aktuell" 
+		                },
+		                {
+		                    "id": 11,
+		                    "name": "Fit for Fun",
+		                    "url": "http://rss.fitforfun.de/fff/XML/rss_fffnews.xml" 
+		                },
+		                {
+		                    "id": 12,
+		                    "name": "Bild",
+		                    "url": "http://feeds2.feedburner.com/bild.xml" 
+		                },
+		                {
+		                    "id": 13,
+		                    "name": "Stern",
+		                    "url": "http://www.stern.de/feed/standard/all/" 
+		                },
+		                {
+		                    "id": 14,
+		                    "name": "T-Online",
+		                    "url": "http://feeds.t-online.de/rss/nachrichten" 
+		                },
+		                {
+		                    "id": 15,
+		                    "name": "Netzwelt",
+		                    "url": "http://www.h2.de/xml/rss_47.xml" 
+		                },
+		                {
+		                    "id": 16,
+		                    "name": "Computerwoche",
+		                    "url": "http://rss.feedsportal.com/c/312/f/4414/index.rss" 
+		                },
+		                {
+		                    "id": 17,
+		                    "name": "AVF Bild",
+		                    "url": "http://www.computerbild.de/rssfeed_2261.html?node=11" 
+		                },
+		                {
+		                    "id": 18,
+		                    "name": "N-TV",
+		                    "url": "http://www.n-tv.de/181.rss" 
+		                },
+						{
+							"id": 19,
+							"name": "Surfin Safari",
+							"url": "http://webkit.org/blog/feed"
+						} 
+					]
+				},
+				{
+					"id": 2,
+					"name": "Yahoo news feeds",
+					"searchUrl": "http://news.search.yahoo.com/news/rss?p=",
+					"localdata":"resources/yahoo.json"
+				},
+				{
+					"id": 3,
+					"name": "Google news feeds",
+					"searchUrl": "http://news.google.com/news?output=rss&q=",
+					"localdata":"resources/google.json"
+				},
+				{
+					"id": 4,
+					"name": "MSN news feeds",
+					"localdata":"resources/msn.json"
+				},
+				{
+					"id": 5,
+					"name": "Bild.de",
+					"localdata":"resources/bild.json"
+				}
+			]
+		}
+	 ]
+}
+

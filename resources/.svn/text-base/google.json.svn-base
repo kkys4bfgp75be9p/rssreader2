@@ -1,0 +1,44 @@
+{
+    "addresses": [
+        {
+            "id": 1,
+            "name": "Top Stories",
+            "url": "http://news.google.com/news?ned=us&topic=h&output=rss"
+        },
+        {
+            "id": 2,
+            "name": "World",
+            "url": "http://news.google.com/news?ned=us&topic=w&output=rss"
+        },
+        {
+            "id": 3,
+            "name": "Business",
+            "url": "http://news.google.com/news?ned=us&topic=b&output=rss"
+        },
+        {
+            "id": 4,
+            "name": "Sci/Tech",
+            "url": "http://news.google.com/news?ned=us&topic=t&output=rss"
+        },
+        {
+            "id": 5,
+            "name": "China",
+            "url": "http://news.google.com/news?q=china&output=rss"
+        },
+        {
+            "id": 6,
+            "name": "Health",
+            "url": "http://news.google.com/news?ned=us&topic=m&output=rss"
+        },
+        {
+            "id": 7,
+            "name": "Sports",
+            "url": "http://news.google.com/news?ned=us&topic=s&output=rss"
+        },
+        {
+            "id": 8,
+            "name": "Entertainment",
+            "url": "http://news.google.com/news?ned=us&topic=e&output=rss"
+        }
+    ]
+}

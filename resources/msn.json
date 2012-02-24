@@ -1,0 +1,24 @@
+{
+    "addresses": [
+        {
+            "id": 1,
+            "name": "Must See",
+            "url": "http://www.msn.com/rss/mustsee.aspx"
+        },
+        {
+            "id": 2,
+            "name": "Sports",
+            "url": "http://www.msn.com/rss/sports.aspx"
+        },
+        {
+            "id": 3,
+            "name": "World news",
+            "url": "http://rss.msnbc.msn.com/id/3032506/device/rss/rss.xml"
+        },
+        {
+            "id": 4,
+            "name": "Health",
+            "url": "http://health.msn.com/rss/most-popular.aspx"
+        }
+    ]
+}

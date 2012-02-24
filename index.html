@@ -1,0 +1,98 @@
+<!doctype html>
+<html manifest="rss.manifest">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">	
+    <meta name="keywords" content="Html5, Rss reader, opensource, Localstorage, YQL, google feed api, google admob, sencha touch, yahoo query language, example">
+    <title>RssReader</title>
+    
+	
+    <link rel="stylesheet" href="resources/css-debug/sencha-touch.css" type="text/css" />
+	<link rel="stylesheet" href="resources/css-debug/rss.css" type="text/css" />
+	
+	<script type="text/javascript">
+		var admob_vars = {
+		 pubid: 'a14e418f981b193', // publisher id
+		 bgcolor: '7F90AA', // background color (hex)
+		 text: 'FFFFFF', // font-color (hex)
+		 test: false // test mode, set to false to receive live ads
+		};
+	</script>
+	<script type="text/javascript" src="http://mmv.admob.com/static/iphone/iadmob.js"></script>
+	
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-20377386-3']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	
+	</script>
+	 
+</head>
+<body>
+     
+    <script type="text/javascript" src="lib/sencha-touch-debug.js"></script>
+    <script type="text/javascript" src="lib/RssProxy.js"></script>
+	
+    <div id="sencha-app">
+    	<script type="text/javascript" src="app/routes.js"></script>
+        <script type="text/javascript" src="app/app.js"></script>
+        
+        <div id="sencha-util">
+        	<script type="text/javascript" src="app/util/rssreaderrequest.js"></script>
+        </div>	
+        
+        <!-- Place your view files here -->
+        <div id="sencha-views">
+            <!-- Main view -->
+            <script type="text/javascript" src="app/views/RssMain.js"></script>
+			<!-- reusable views -->
+			<script type="text/javascript" src="app/views/Feed.js"></script>
+			<script type="text/javascript" src="app/views/FeedList.js"></script>
+			<script type="text/javascript" src="app/views/FeedDetail.js"></script>
+			<!-- views for the first tab -->
+			<script type="text/javascript" src="app/views/FavoritesContainer.js"></script>
+			<script type="text/javascript" src="app/views/FavoritesPanel.js"></script>
+			<script type="text/javascript" src="app/views/FavoritesFeedsList.js"></script>
+			<script type="text/javascript" src="app/views/AddFeed.js"></script>
+			<!-- views for the second tab -->
+			<script type="text/javascript" src="app/views/CarouselContainer.js"></script>
+			<!-- views for the third tab -->
+			<script type="text/javascript" src="app/views/SearchContainer.js"></script>
+			<script type="text/javascript" src="app/views/SearchForm.js"></script>
+			<!-- views for the fourth tab -->
+			<script type="text/javascript" src="app/views/Info.js"></script>
+		</div>
+        
+        <!-- Place your model files here -->
+        <div id="sencha-models">
+            <script type="text/javascript" src="app/models/Address.js"></script>
+            <script type="text/javascript" src="app/models/Feed.js"></script>
+			<script type="text/javascript" src="app/models/FeedsGroup.js"></script>
+			<script type="text/javascript" src="app/models/RSSFeeds.js"></script>
+        </div>
+        
+		<!-- Place your stores files here -->
+        <div id="sencha-stores">
+            <script type="text/javascript" src="app/stores/LocalDefaultFeedsStore.js"></script>
+			<script type="text/javascript" src="app/stores/LocalCarouselStore.js"></script>
+			<script type="text/javascript" src="app/stores/FeedStore.js"></script>
+			<script type="text/javascript" src="app/stores/RSSFeedsStore.js"></script>
+		</div>
+		
+        <!-- Place your controller files here -->
+        <div id="sencha-controllers">
+            <script type="text/javascript" src="app/controllers/favoritescontroller.js"></script>
+            <script type="text/javascript" src="app/controllers/carouselcontroller.js"></script>
+            <script type="text/javascript" src="app/controllers/searchcontroller.js"></script>
+        </div>
+    </div>
+    
+    
+</body>
+</html>

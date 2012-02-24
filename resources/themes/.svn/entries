@@ -1,0 +1,81 @@
+10
+
+dir
+35
+https://rss-reader-sencha.googlecode.com/svn/trunk/resources/themes
+https://rss-reader-sencha.googlecode.com/svn
+
+
+
+2011-08-09T18:52:14.850398Z
+8
+zhangming0305@gmail.com
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+bef16462-89cc-dde5-bf40-e6959974475f
+
+
+
+
+
+
+0
+
+compass_init.rb
+file
+
+
+
+
+2011-07-12T18:17:44.355000Z
+9ddf0777ffaec80392d166638ea01e99
+2011-08-09T18:52:14.850398Z
+8
+zhangming0305@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+242
+
+images
+dir
+
+lib
+dir
+
+stylesheets
+dir
+
+templates
+dir
+

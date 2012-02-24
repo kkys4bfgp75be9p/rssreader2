@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/28/trunk/app/stores
+END
+LocalCarouselStore.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/28/trunk/app/stores/LocalCarouselStore.js
+END
+FeedStore.js
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/27/trunk/app/stores/FeedStore.js
+END
+LocalDefaultFeedsStore.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/14/trunk/app/stores/LocalDefaultFeedsStore.js
+END
+RSSFeedsStore.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/27/trunk/app/stores/RSSFeedsStore.js
+END

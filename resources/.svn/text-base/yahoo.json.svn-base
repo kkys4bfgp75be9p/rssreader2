@@ -1,0 +1,64 @@
+{
+    "addresses": [
+        {
+            "id": 1,
+            "name": "Top Stories",
+            "url": "http://rss.news.yahoo.com/rss/topstories"
+        },
+        {
+            "id": 2,
+            "name": "The Newsroom",
+            "url": "http://rss.news.yahoo.com/rss/yahoonewsroom"
+        },
+        {
+            "id": 3,
+            "name": "U.S. National",
+            "url": "http://rss.news.yahoo.com/rss/us"
+        },
+        {
+            "id": 4,
+            "name": "World",
+            "url": "http://rss.news.yahoo.com/rss/world"
+        },
+        {
+            "id": 5,
+            "name": "China",
+            "url": "http://rss.news.yahoo.com/rss/china"
+        },
+        {
+            "id": 6,
+            "name": "Europe",
+            "url": "http://rss.news.yahoo.com/rss/europe"
+        },
+        {
+            "id": 7,
+            "name": "Politics",
+            "url": "http://rss.news.yahoo.com/rss/politics"
+        },
+        {
+            "id": 8,
+            "name": "European Economy",
+            "url": "http://rss.news.yahoo.com/rss/eurobiz"
+        },
+        {
+            "id": 9,
+            "name": "Technology",
+            "url": "http://rss.news.yahoo.com/rss/tech"
+        },
+		{
+            "id": 10,
+            "name": "Health",
+            "url": "http://rss.news.yahoo.com/rss/health"
+        },
+        {
+            "id": 11,
+            "name": "Entertainment",
+            "url": "http://rss.news.yahoo.com/rss/entertainment"
+        },
+        {
+            "id": 12,
+            "name": "Science",
+            "url": "http://rss.news.yahoo.com/rss/science"
+        }
+    ]
+}
